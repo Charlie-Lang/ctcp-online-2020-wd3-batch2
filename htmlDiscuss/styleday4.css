@@ -1,0 +1,34 @@
+.container {
+	height: 1000px;
+	width: 700px;
+	border: 1px solid black;
+}
+.header {
+	background-color: pink;
+	width: 100%;
+	height: 100px;
+}
+.leftmenu {
+	background-color: lightgray;
+	width: 125px;
+	height: 800px;
+	float: left;
+}
+.content{
+	background-color: goldenrod;
+	width: 450px;
+	height: 800px;
+	float: left;
+}
+.rightmenu{
+	background-color: azure;
+	width: 125px;
+	height: 800px;
+	float: right;
+}
+.footer{
+	background-color: lightgreen;
+	width: 100%;
+	height: 100px;
+	clear: both;
+}
