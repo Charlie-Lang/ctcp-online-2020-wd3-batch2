@@ -18,3 +18,4 @@ CREATE TABLE tbl_sample3 (
 	, fld_quantity INT NOT NULL 
 	, PRIMARY KEY (fld_id)
 ) ENGINE = InnoDB;
+--to next
