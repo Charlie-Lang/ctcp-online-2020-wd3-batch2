@@ -1,3 +1,20 @@
+--Recent discussion table content
+
+INSERT INTO tbl_sample3
+(fld_product ,fld_category ,fld_price ,fld_quantity) 
+VALUES ('Chiz Whiz','Spread','67','10') 
+,('CoffeeMate 500g','Drinks','112','5') 
+,('Extra big Original','Instant Noodles','14.25','30') 
+,('Lily\'s Peanut Butter 470 grams','Spreads','208.45','5') 
+,('Lucky Me Mac n Cheese Deluxe','Instant Noodles','20','12') 
+,('Nescafe Coffee 100 grams','Drinks','75.24','12') 
+,('Nescafe Coffee 50g','Drinks','38.95','8') 
+,('Nissin Yakisoba Green','Instant Noodles','8.7','30') 
+,('Nissin Yakisoba Green','Instant Noodles','8.7','30') 
+,('Nutella Dark Choco 300 grams','Spreads','172.44','10') 
+,('Reno Liver Spread','Spreads','20','30') 
+,('Samyeong','Instant Noodles','25.5','20')
+
 --NOTE: all caplock is part of the SQL query unless stated otherwise		
 --NOTE: UNDERLINED part is values from the table or your input		
 		
@@ -111,3 +128,4 @@ WHERE
 	fld_category = 'Instant Noodles'
     OR
     fld_category = 'Drinks'
+
