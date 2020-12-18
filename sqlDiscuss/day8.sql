@@ -6,7 +6,7 @@ CREATE TABLE tbl_sample2 (
 	, fld_category VARCHAR(30) NOT NULL
 	, fld_price FLOAT(20,4) NOT NULL
 	, fld_quantity INT NOT NULL 
-) ENGINE = InnoDB;
+);
 
 --INSERT = INPUT DATA TO 
 
@@ -17,5 +17,5 @@ CREATE TABLE tbl_sample3 (
 	, fld_price FLOAT(20,4) NOT NULL 
 	, fld_quantity INT NOT NULL 
 	, PRIMARY KEY (fld_id)
-) ENGINE = InnoDB;
+);
 --to next
