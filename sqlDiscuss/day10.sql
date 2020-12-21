@@ -74,6 +74,12 @@ SELECT
 	SUM(fld_price)
 FROM tbl_sample3;
 
+-- AVG
+
+SELECT
+	AVG(fld_price)
+FROM tbl_sample3;
+
 -- using MAX and MIN on fld_product
 
 SELECT 
